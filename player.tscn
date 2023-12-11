@@ -1,0 +1,55 @@
+[gd_scene load_steps=4 format=3 uid="uid://b6tvpbc1vd7fx"]
+
+[ext_resource type="Texture2D" uid="uid://sjoyulsa61wn" path="res://icon.svg" id="1_8dgia"]
+
+[sub_resource type="GDScript" id="GDScript_p2x3f"]
+script/source = "extends CharacterBody2D
+
+const SPEED = 100.0
+const ACCELERATION = 600.0
+const FRICTION = 1000.0
+const JUMP_VELOCITY = -300.0
+
+var gravity = ProjectSettings.get_setting(\"physics/2d/default_gravity\")
+
+func _physics_process(delta):
+	apply_gravity(delta)
+	
+	# Handle Jump.
+	if is_on_floor():
+		if Input.is_action_just_pressed(\"ui_accept\"):
+			velocity.y = JUMP_VELOCITY
+	else:
+		if Input.is_action_just_released(\"ui_accept\") and velocity.y < JUMP_VELOCITY / 2:
+			velocity.y = JUMP_VELOCITY / 2
+			
+	# Get the input direction and handle the movement/deceleration.
+	# As good practice, you should replace UI actions with custom gameplay actions.
+	var direction = Input.get_axis(\"ui_left\", \"ui_right\")
+	if direction != 0:
+		velocity.x = move_toward(velocity.x, SPEED * direction, ACCELERATION * delta)
+	else:
+		velocity.x = move_toward(velocity.x, 0, FRICTION * delta)
+
+	move_and_slide()
+	
+func apply_gravity(delta):
+	if not is_on_floor():
+		velocity.y += gravity * delta
+"
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_mnhon"]
+size = Vector2(18, 17.75)
+
+[node name="Player" type="CharacterBody2D"]
+floor_constant_speed = true
+floor_snap_length = 2.0
+script = SubResource("GDScript_p2x3f")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.138672, 0.134766)
+texture = ExtResource("1_8dgia")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 0.125)
+shape = SubResource("RectangleShape2D_mnhon")
