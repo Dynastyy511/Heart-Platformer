@@ -1,4 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
+<<<<<<< Updated upstream
 ::res://::1707169855
 DefaultMovementData.tres::Resource/PlayerMovementData::5921517105857057775::1703014994::0::1::::<><>::res://PlayerMovementData.gd
 icon.svg::CompressedTexture2D::1282872550502507225::1701985009::1702329156::1::::<><>::
@@ -8,3 +9,14 @@ PlayerMovementData.gd::GDScript::-1::1703014958::0::1::::PlayerMovementData<>Res
 README.md::TextFile::-1::1702328966::0::1::::<><>::
 world.gd::GDScript::-1::1702591382::0::1::::<>Node2D<>::
 world.tscn::PackedScene::9195175393315298545::1706912315::0::1::::<><>::res://world.gd<>uid://b6tvpbc1vd7fx::::res://player.tscn
+=======
+::res://::1706912179
+DefaultMovementData.tres::Resource/PlayerMovementData::5921517105857057775::1703014994::0::1::::<><>::res://PlayerMovementData.gd
+icon.svg::CompressedTexture2D::1282872550502507225::1701985009::1702329156::1::::<><>::
+player.png::CompressedTexture2D::6674857157431664576::1702590518::1702590518::1::::<><>::
+player.tscn::PackedScene::4602799914378408041::1703015429::0::1::::<><>::uid://cqmory7se48wx::::res://DefaultMovementData.tres<>uid://c2dl6mbenuq7q::::res://player.png
+PlayerMovementData.gd::GDScript::-1::1703014958::0::1::::PlayerMovementData<>Resource<>::
+README.md::TextFile::-1::1702328966::0::1::::<><>::
+world.gd::GDScript::-1::1702591382::0::1::::<>Node2D<>::
+world.tscn::PackedScene::9195175393315298545::1703015355::0::1::::<><>::res://world.gd<>uid://b6tvpbc1vd7fx::::res://player.tscn
+>>>>>>> Stashed changes
