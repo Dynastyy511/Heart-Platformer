@@ -1,8 +1,4 @@
-res://player.tscn
-<<<<<<< Updated upstream
-res://FasterMovementData.tres
-res://SlowMovementData.tres
 res://world.tscn
 res://PlayerMovementData.gd
-=======
->>>>>>> Stashed changes
+res://player.tscn
+res://FasterMovementData.tres
