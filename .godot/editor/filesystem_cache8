@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1708033173
+::res://::1708035309
 DefaultMovementData.tres::Resource/Resource::927142461659740688::1707430912::0::1::::<><>::res://PlayerMovementData.gd
 FasterMovementData.tres::Resource/Resource::3364191796044826578::1707430912::0::1::::<><>::res://PlayerMovementData.gd
 hazard_area.tscn::PackedScene::1839587099836048709::1707773915::0::1::::<><>::
@@ -7,10 +7,17 @@ heart.png::CompressedTexture2D::4473560402457913253::1708033173::1708033173::1::
 icon.svg::CompressedTexture2D::4182213604889438604::1707430912::1707430930::1::::<><>::
 player.gd::GDScript::-1::1707773716::0::1::::<>CharacterBody2D<>::
 player.png::CompressedTexture2D::7289043705099283713::1707430912::1707430912::1::::<><>::
-player.tscn::PackedScene::4395689136921678251::1707773915::0::1::::<><>::res://player.gd<>uid://nhd5voo3ikx1::::res://DefaultMovementData.tres<>uid://db34qqr0dkden::::res://player.png
+player.tscn::PackedScene::4395689136921678251::1708035168::0::1::::<><>::res://player.gd<>uid://nhd5voo3ikx1::::res://DefaultMovementData.tres<>uid://db34qqr0dkden::::res://player.png
 PlayerMovementData.gd::GDScript::-1::1707430912::0::1::::PlayerMovementData<>Resource<>::
+heart.tscn::PackedScene::8029682796413068353::1708035168::0::1::::<><>::uid://b40a5eqrh5vrp::::res://heart.png<>res://heart.gd
+heart.gd::GDScript::-1::1708034514::0::1::::<>Area2D<>::
+level_completed.tscn::PackedScene::5485983831526532952::1708035168::0::1::::<><>::
+Events.gd::GDScript::-1::1708034514::0::1::::<>Node<>::
+slopes.png::CompressedTexture2D::881716255445837307::1708035303::1708035303::1::::<><>::
+slopes_flipped.png::CompressedTexture2D::3276323001451838331::1708035292::1708035284::1::::<><>::
 SlowMovementData.tres::Resource/Resource::2542353391535365843::1707430912::0::1::::<><>::res://PlayerMovementData.gd
 spikes.png::CompressedTexture2D::8151356589135914947::1707773716::1707773716::1::::<><>::
 spikes.tscn::PackedScene::6005395529397088689::1707773915::0::1::::<><>::uid://doetwf268jydf::::res://spikes.png<>uid://1hdy31cultt2::::res://hazard_area.tscn
-world.gd::GDScript::-1::1707430912::0::1::::<>Node2D<>::
-world.tscn::PackedScene::8783186668635941044::1707773915::0::1::::<><>::res://world.gd<>uid://b3vkmfxunohh8::::res://player.tscn<>uid://crtb8s64n86hp::::res://spikes.tscn
+tileset.png::CompressedTexture2D::2919061931741516539::1708035309::1708035310::1::::<><>::
+world.gd::GDScript::-1::1708034814::0::1::::<>Node2D<>::
+world.tscn::PackedScene::8783186668635941044::1708035168::0::1::::<><>::res://world.gd<>uid://b3vkmfxunohh8::::res://player.tscn<>uid://crtb8s64n86hp::::res://spikes.tscn<>uid://dmnvx5djrdqsv::::res://heart.tscn<>uid://ckfpl8eufcn7e::::res://level_completed.tscn

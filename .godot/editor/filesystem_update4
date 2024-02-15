@@ -5,3 +5,4 @@ res://player.tscn
 res://level_completed.tscn
 res://Events.gd
 res://world.gd
+res://level_tile_map.tscn
