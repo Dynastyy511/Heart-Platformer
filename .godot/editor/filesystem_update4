@@ -1,1 +1,7 @@
 res://world.tscn
+res://world_copy.tscn
+res://level_one.tscn
+res://spikes.tscn
+res://player.tscn
+res://level_completed.tscn
+res://level_two.tscn
