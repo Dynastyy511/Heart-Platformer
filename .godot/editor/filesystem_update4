@@ -1,10 +1,1 @@
 res://world.tscn
-res://player.tscn
-res://heart.tscn
-res://level_completed.tscn
-<<<<<<< Updated upstream
-res://Events.gd
-res://world.gd
-res://level_tile_map.tscn
-=======
->>>>>>> Stashed changes
