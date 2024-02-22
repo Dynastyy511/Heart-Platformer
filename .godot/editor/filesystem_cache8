@@ -1,4 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
+<<<<<<< Updated upstream
 ::res://::1708121082
 DefaultMovementData.tres::Resource/PlayerMovementData::927142461659740688::1707944954::0::1::::<><>::res://PlayerMovementData.gd
 Events.gd::GDScript::-1::1707944954::0::1::::<>Node<>::
@@ -22,3 +23,24 @@ spikes.tscn::PackedScene::2195552332480729669::1707944955::0::1::::<><>::uid://b
 tileset.png::CompressedTexture2D::2854665884277872011::1707944955::1707944955::1::::<><>::
 world.gd::GDScript::-1::1707944955::0::1::::<>Node2D<>::
 world.tscn::PackedScene::8783186668635941044::1707944955::0::1::::<><>::res://world.gd<>uid://b3vkmfxunohh8::::res://player.tscn<>uid://6jsoqvcs8feb::::res://spikes.tscn<>uid://b7ssnkt4brfcg::::res://heart.tscn<>uid://cbmvs6l784pvc::::res://level_completed.tscn<>uid://bx8enf5ix4chl::::res://level_tile_map.tscn
+=======
+::res://::1708034894
+DefaultMovementData.tres::Resource/PlayerMovementData::927142461659740688::1707430821::0::1::::<><>::res://PlayerMovementData.gd
+Events.gd::GDScript::-1::1708034877::0::1::::<>Node<>::
+FasterMovementData.tres::Resource/PlayerMovementData::3364191796044826578::1707430821::0::1::::<><>::res://PlayerMovementData.gd
+hazard_area.tscn::PackedScene::1839587099836048709::1707772646::0::1::::<><>::
+heart.gd::GDScript::-1::1708034877::0::1::::<>Area2D<>::
+heart.png::CompressedTexture2D::4473560402457913253::1708034877::1708034877::1::::<><>::
+heart.tscn::PackedScene::8029682796413068353::1708034877::0::1::::<><>::uid://b40a5eqrh5vrp::::res://heart.png<>res://heart.gd
+icon.svg::CompressedTexture2D::4182213604889438604::1707430829::1707430965::1::::<><>::
+level_completed.tscn::PackedScene::5485983831526532952::1708034877::0::1::::<><>::
+player.gd::GDScript::-1::1707773592::0::1::::<>CharacterBody2D<>::
+player.png::CompressedTexture2D::7289043705099283713::1707430829::1707430829::1::::<><>::
+player.tscn::PackedScene::4395689136921678251::1707773767::0::1::::<><>::res://player.gd<>uid://nhd5voo3ikx1::::res://DefaultMovementData.tres<>uid://db34qqr0dkden::::res://player.png
+PlayerMovementData.gd::GDScript::-1::1707430829::0::1::::PlayerMovementData<>Resource<>::
+SlowMovementData.tres::Resource/PlayerMovementData::2542353391535365843::1707430829::0::1::::<><>::res://PlayerMovementData.gd
+spikes.png::CompressedTexture2D::8151356589135914947::1707771925::1707771925::1::::<><>::
+spikes.tscn::PackedScene::6005395529397088689::1707773844::0::1::::<><>::uid://doetwf268jydf::::res://spikes.png<>uid://1hdy31cultt2::::res://hazard_area.tscn
+world.gd::GDScript::-1::1708034877::0::1::::<>Node2D<>::
+world.tscn::PackedScene::8783186668635941044::1708034877::0::1::::<><>::res://world.gd<>uid://b3vkmfxunohh8::::res://player.tscn<>uid://crtb8s64n86hp::::res://spikes.tscn<>uid://dmnvx5djrdqsv::::res://heart.tscn<>uid://ckfpl8eufcn7e::::res://level_completed.tscn
+>>>>>>> Stashed changes

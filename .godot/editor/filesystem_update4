@@ -3,5 +3,9 @@ res://world_copy.tscn
 res://level_one.tscn
 res://spikes.tscn
 res://player.tscn
+res://heart.tscn
 res://level_completed.tscn
+<<<<<<< Updated upstream
 res://level_two.tscn
+=======
+>>>>>>> Stashed changes
