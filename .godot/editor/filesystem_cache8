@@ -1,9 +1,12 @@
 ea4bc82a6ad023ab7ee23ee620429895
 <<<<<<< Updated upstream
 <<<<<<< HEAD
+<<<<<<< HEAD
 ::res://::1708723789
 DefaultMovementData.tres::Resource/Resource::927142461659740688::1707944954::0::1::::<><>::res://PlayerMovementData.gd
 =======
+=======
+>>>>>>> parent of 94a76f2 (video 8 (21:05))
 ::res://::1708121082
 DefaultMovementData.tres::Resource/PlayerMovementData::927142461659740688::1707944954::0::1::::<><>::res://PlayerMovementData.gd
 >>>>>>> parent of 94a76f2 (video 8 (21:05))
@@ -14,6 +17,7 @@ heart.gd::GDScript::-1::1707944955::0::1::::<>Area2D<>::
 heart.png::CompressedTexture2D::4098403910358345778::1707944955::1707944955::1::::<><>::
 heart.tscn::PackedScene::4670739156778196310::1708640276::0::1::::<><>::uid://bynkd4lxs6sja::::res://heart.png<>res://heart.gd
 icon.svg::CompressedTexture2D::4182213604889438604::1707944955::1707944955::1::::<><>::
+<<<<<<< HEAD
 <<<<<<< HEAD
 level_completed.tscn::PackedScene::4869111591927229248::1708640276::0::1::::<><>::
 level_one.tscn::PackedScene::8338232238024257438::1708640276::0::1::::<><>::uid://dxev2igc1wpv5::::res://world.tscn<>uid://dy1vacym6kfge::::res://level_two.tscn<>uid://6jsoqvcs8feb::::res://spikes.tscn<>uid://b7ssnkt4brfcg::::res://heart.tscn<>uid://bx8enf5ix4chl::::res://level_tile_map.tscn
@@ -30,11 +34,19 @@ player.gd::GDScript::-1::1707944955::0::1::::<>CharacterBody2D<>::
 player.png::CompressedTexture2D::7289043705099283713::1707944955::1707944955::1::::<><>::
 player.tscn::PackedScene::4395689136921678251::1707944955::0::1::::<><>::res://player.gd<>uid://nhd5voo3ikx1::::res://DefaultMovementData.tres<>uid://db34qqr0dkden::::res://player.png
 >>>>>>> parent of 94a76f2 (video 8 (21:05))
+=======
+level_completed.tscn::PackedScene::4869111591927229248::1707944955::0::1::::<><>::
+level_tile_map.tscn::PackedScene::4069154945899892697::1707944955::0::1::::<><>::uid://bgw26vem2qijj::::res://tileset.png<>uid://7hp5rpqsl6bu::::res://slopes.png<>uid://chwqgn5ysb277::::res://slopes_flipped.png
+player.gd::GDScript::-1::1707944955::0::1::::<>CharacterBody2D<>::
+player.png::CompressedTexture2D::7289043705099283713::1707944955::1707944955::1::::<><>::
+player.tscn::PackedScene::4395689136921678251::1707944955::0::1::::<><>::res://player.gd<>uid://nhd5voo3ikx1::::res://DefaultMovementData.tres<>uid://db34qqr0dkden::::res://player.png
+>>>>>>> parent of 94a76f2 (video 8 (21:05))
 PlayerMovementData.gd::GDScript::-1::1707944954::0::1::::PlayerMovementData<>Resource<>::
 slopes.png::CompressedTexture2D::2261458886224606314::1707944955::1707944955::1::::<><>::
 slopes_flipped.png::CompressedTexture2D::5310562500351696884::1707944955::1707944955::1::::<><>::
 SlowMovementData.tres::Resource/Resource::2542353391535365843::1707944955::0::1::::<><>::res://PlayerMovementData.gd
 spikes.png::CompressedTexture2D::2703774449421169969::1707944955::1707944955::1::::<><>::
+<<<<<<< HEAD
 <<<<<<< HEAD
 spikes.tscn::PackedScene::2195552332480729669::1708122435::0::1::::<><>::uid://bery1gkgvet26
 tileset.png::CompressedTexture2D::2854665884277872011::1707944955::1707944955::1::::<><>::
@@ -68,6 +80,8 @@ tileset.png::CompressedTexture2D::2854665884277872011::1708637864::1708637864::1
 world.gd::GDScript::-1::1708723617::0::1::::<>Node2D<>::
 world.tscn::PackedScene::8783186668635941044::1708637864::0::1::::<><>::res://world.gd<>uid://b3vkmfxunohh8::::res://player.tscn<>uid://cbmvs6l784pvc::::res://level_completed.tscn<>uid://bx8enf5ix4chl::::res://level_tile_map.tscn
 =======
+=======
+>>>>>>> parent of 94a76f2 (video 8 (21:05))
 spikes.tscn::PackedScene::2195552332480729669::1707944955::0::1::::<><>::uid://bery1gkgvet26::::res://spikes.png<>uid://c4itr5hgm1hfr::::res://hazard_area.tscn
 tileset.png::CompressedTexture2D::2854665884277872011::1707944955::1707944955::1::::<><>::
 world.gd::GDScript::-1::1707944955::0::1::::<>Node2D<>::
@@ -92,5 +106,8 @@ spikes.png::CompressedTexture2D::8151356589135914947::1707771925::1707771925::1:
 spikes.tscn::PackedScene::6005395529397088689::1707773844::0::1::::<><>::uid://doetwf268jydf::::res://spikes.png<>uid://1hdy31cultt2::::res://hazard_area.tscn
 world.gd::GDScript::-1::1708034877::0::1::::<>Node2D<>::
 world.tscn::PackedScene::8783186668635941044::1708034877::0::1::::<><>::res://world.gd<>uid://b3vkmfxunohh8::::res://player.tscn<>uid://crtb8s64n86hp::::res://spikes.tscn<>uid://dmnvx5djrdqsv::::res://heart.tscn<>uid://ckfpl8eufcn7e::::res://level_completed.tscn
+<<<<<<< HEAD
+>>>>>>> parent of 94a76f2 (video 8 (21:05))
+=======
 >>>>>>> parent of 94a76f2 (video 8 (21:05))
 >>>>>>> Stashed changes
