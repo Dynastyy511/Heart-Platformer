@@ -1,8 +1,8 @@
+CanvasLayer
 ColorRect
 AnimationPlayer
 Node
 TileMap
-CanvasLayer
 Label
 CenterContainer
 CollisionShape2D
