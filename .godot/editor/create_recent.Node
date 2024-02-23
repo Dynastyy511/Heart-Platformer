@@ -1,9 +1,16 @@
+<<<<<<< HEAD
 CanvasLayer
 ColorRect
 AnimationPlayer
 Node
 TileMap
+=======
+TileMap
+CanvasLayer
+Node
+>>>>>>> parent of 94a76f2 (video 8 (21:05))
 Label
+ColorRect
 CenterContainer
 CollisionShape2D
 Sprite2D
