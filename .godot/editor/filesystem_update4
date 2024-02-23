@@ -1,5 +1,6 @@
-res://level_transition.tscn
-res://level_transition.gd
+res://heart.gd
+res://player.gd
 res://world.gd
 res://world.tscn
-res://player.tscn
+res://level_transition.gd
+res://level_transition.tscn
